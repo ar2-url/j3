@@ -33,14 +33,14 @@ public class Cat2 {
     }
 
     public void feed() {
-        System.out.println("Karmimy kota: " + name);
+        System.out.println("Cat: " + name);
     }
 
     public void scratch() {
         System.out.println("Mrrrr mrrrr" + name);
     }
 
-    @Override                   // zamiana dzialania metody ktora istnieje
+    @Override                   // override change 
     public String toString() {
         return name + " " + weight + " " + ownerName;
     }
